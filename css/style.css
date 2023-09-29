@@ -536,7 +536,7 @@ td:nth-child(2n + 1) {
 
 /* селекторы потомков */
 
-.about__text .inherit_text {
+.about__text_link .inherit_text {
     color: red;
     font-size: 44px;
 }
@@ -555,7 +555,6 @@ td:nth-child(2n + 1) {
 }
 
 input::-webkit-input-placeholder {
-    /* color: blue; */
     font-size: 16px;
 }
 
