@@ -69,6 +69,10 @@ header {
     background-color: #acacac;
 }
 
+.git_test {
+    color: #00e48c;
+}
+
 .header__title {
     font-size: 32px;
     text-align: center;
