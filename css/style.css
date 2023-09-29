@@ -1,0 +1,601 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 5px;
+    text-align: justify;
+}
+
+i {
+    font-style: italic;
+}
+
+html {
+    /* background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614383162_69-p-fon-sovremennii-svetlii-77.jpg); */
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674373459_catherineasquithgallery-com-p-fon-svetlo-serii-serii-foto-16.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+/* .underline {
+    text-decoration: underline;
+} */
+
+/* content__block start */
+
+.content__block {
+    margin: 20px 0 30px 0;
+    padding-top: 10px;
+
+    border: 1px solid;
+    width: 350px;
+}
+
+/* content__block end */
+
+/* Header start */
+
+header {
+    background-color: #acacac;
+}
+
+.header__title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 5px;
+
+   height: 50px;
+   width: 50px; 
+}
+
+.header__list {
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.link__text {
+    margin-right: 50px;
+
+    list-style: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+/* Header end */
+
+/* About start */
+
+
+.about__content {
+    text-align: center;
+}
+
+.about {
+    color: red;
+    border: 5px solid red;
+}
+
+.avatar {
+    margin-bottom: 20px;
+
+    border-radius: 90px;
+    height: 120px;
+    width: 120px;
+}
+
+.about__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    font-size: 1em;
+    line-height: 35px;
+}
+
+/* About end */
+
+/* Pages start */
+
+.pages__title {
+    margin: 15px 0 20px 0;
+
+    text-align: center;
+}
+
+.pages__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.pages__link__text {
+    font-size: 1em;
+
+    text-decoration: underline;
+}
+
+/* Pages end */
+
+/* Footer start */
+
+footer {
+    background-color: #acacac;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__block {
+    margin-top: 15px;
+}
+
+.footer__logo__link {
+    margin-right: 10px;
+
+    text-decoration: none;
+}
+
+.footer__logo__link:last-child {
+    margin: 0;
+}
+
+.footer__text {
+    color: #000;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Footer end */
+
+/* article start */
+
+.article__text {
+    font-family: 'Raleway', sans-serif;
+}
+
+.article__title {
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.time__block {
+    margin-bottom: 15px;
+}
+
+.content__block__title {
+    text-align: center;
+}
+
+.nav__content__link {
+    text-decoration: none;
+}
+
+
+
+.article__subtitle {
+    margin-bottom: 15px;
+    margin-top: 40px;
+
+    border-bottom: 1px solid #000;
+    font-size: 32px;
+}
+
+.article__text {
+    line-height: 35px;
+}
+
+/* img block start */
+
+.img__block {
+    width: 500px;
+    height: 670px;
+    text-align: center;
+
+    border: 1px solid #000;
+}
+
+.logo__article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo__article3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img__block3 {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+
+    border: 1px solid #000;
+}
+
+.sublogo__article {
+    margin-bottom: 20px;
+}
+
+/* .tablica {
+    text-align: center;
+    align-items: center;
+} */
+
+/* img block end */
+
+/* article end */
+
+/* pages3 start */
+
+.block3 {
+    display: flex;
+}
+
+.article__subsubtitle {
+    margin-bottom: 15px;
+    margin-top: 40px;
+
+    border-bottom: 1px solid #000000;
+    font-size: 1em;
+}
+
+.article__subtitle3 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+
+    font-size: 32px;
+}
+
+/* pages3 end */
+
+/* pages4 start */
+
+.align_centr {
+    width: 850px;
+    border: 1px solid #dcdcdc;
+    max-width: 94%;
+
+    margin: 40px 0 20px 140px;
+}
+
+.align_centr-gif {
+    width: 850px;
+    border: 1px solid #dcdcdc;
+    max-width: 94%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+}
+
+/* pages4 end */
+
+/* pages 5 start */
+
+.grey__text {
+    font-style: italic;
+    color: rgb(153, 153, 153);
+}
+
+/* pages 5 end */
+
+.pages__link__text {
+    text-decoration: none;
+    list-style: none;
+}
+
+.article__content p+img {
+    margin-bottom: 110px;
+}
+
+.about__text::first-line {
+    letter-spacing: 15px;
+}
+
+.article__text::first-line {
+    letter-spacing: 15px;
+}
+
+.header__list li::after{
+    content: 'подробнее';
+    margin-left: 5px;
+    font-size: 20px;
+    color: fuchsia;
+}
+
+.header__list li {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header__list li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    
+    top: 0;
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    transition: 1s;
+}
+
+.header__list li:hover::before {
+    width: 100%;
+}
+
+.header__list:focus {
+    color: red;
+    text-transform: uppercase;
+}
+
+/* подчёркивание для ссылок статей */
+
+.pages__link {
+    position: relative;
+}
+
+.pages__link:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Опускает линию вниз */
+    transform: scaleX(0); /* Для того что бы изначально линию не было видно */
+    transform-origin: left; /* Для того что бы линия выезжала слева */
+}
+
+.pages__link:hover::before {
+    transform: scaleX(1); /* Для того что бы линию стало видно на всей длинне текста */
+    transition: transform 0.5s;
+}
+
+.pages__link:focus {
+    color: #00e48c;
+    border: 1px solid blue;
+    font-size: 24px;
+}
+
+.pages__list li:first-child::after{
+    content: 'Важно';
+    margin-left: 5px;
+    font-size: 20px;
+    color: fuchsia;
+}
+
+
+.pages__link__text:nth-child(2n + 1) {
+    background-color: lime; /* Для каждого второго li цвет будет лаймовый */
+}
+
+/* Псевдокласс lang(en) */
+
+q:lang(en) {
+    quotes: "\201C" "\201D"; 
+    font-weight: italic;
+    font-size: 26px;
+}
+
+/* Селекторы потомков */
+
+.article__text__block .about__text {
+    color: black;
+    line-height: 1.4;
+}
+
+/* Оформление иконок футера */
+
+.footer__logo__link .footer__logo {
+    border: 2px solid black;
+}
+
+/* соседние элементы(отступ от картинок) НАЙТИ МОЖНО НА СТРАНИЦЕ 2 */
+
+/* .article__text__block_no-img+.the_quick_fox {
+    margin-top: 100px;
+} */
+
+
+
+/* Рассчитайте специфичность следующих правил: */
+
+/* 
+body = 1
+.pink = 10
+#logo =100
+#mainnav ul = 100 + 1 =101
+#mainnav .active = 100 + 10 = 110
+#mainnav a:hover = 100 + 1 + 10 = 111
+#mainnav ul li.active = 100 + 1+ 1 + 10 = 112
+*/
+
+
+
+/* Таблица */
+
+th {
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: hotpink;
+}
+
+th:first-child {
+    color: rgb(150, 12, 255);
+    font-size: 36px;
+}
+
+th:last-child {
+    color: rgb(255, 145, 0);
+    font-size: 18px;
+}
+
+
+td {
+padding-right: 50px;
+padding-bottom: 10px;
+}
+
+td:nth-child(2n + 1) {
+    background-color: rgb(245, 140, 140);
+}
+
+/* Ссылка здесь */
+
+.footer__link {
+    position: relative;
+}
+
+.footer__link:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgb(71, 71, 71);
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Опускает линию вниз */
+    transform: scaleX(0); /* Для того что бы изначально линию не было видно */
+    transform-origin: left; /* Для того что бы линия выезжала слева */
+}
+
+.footer__link:hover::before {
+    transform: scaleX(1); /* Для того что бы линию стало видно на всей длинне текста */
+    transition: transform 0.5s;
+}
+
+.footer__link:focus {
+    color: #00e48c;
+    border: 1px solid blue;
+    font-size: 24px;
+}
+
+/* селекторы потомков */
+
+.about__text .inherit_text {
+    color: red;
+    font-size: 44px;
+}
+
+/* Форма обратной связи */
+
+.form__wrapper {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+    align-items: center;
+}
+
+.form__list {
+    list-style-type: none;
+}
+
+input::-webkit-input-placeholder {
+    /* color: blue; */
+    font-size: 16px;
+}
+
+
+*:focus{outline: none;}
+
+label {
+    font-size: 24px;
+    font-weight: inherit;
+}
+
+input {
+    height: 40px;
+}
+
+.send {
+    width: 120px;
+    height: 50px;
+
+    font-size: 20px;
+    color: orange;
+    background-color: blue;
+
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
+
+.send:focus {
+    background-color: rgb(113, 113, 255);
+}
+
+.send:hover {
+    background-color: rgb(113, 113, 255);
+}
+
+select {
+    height: 50px;
+    width: 175px;
+
+    margin: 20px 0 20px 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ситлизация, CSS, HTML">
+    <meta name="description" content="hic ex fugit tempora error repellat, cupiditate praesentium natus tempore deserunt, eos voluptatibus ad assumenda. Illum saepe velit exercitationem sed, unde a pariatur tenetur blanditiis sint ut assumenda deleniti facere? Doloremque libero amet atque praesentium magni nesciunt! Quas aperiam exercitationem, aspernatur, labore consequuntur sequi fugit odit molestias officia neque deserunt eligendi commodi dicta accusantium, dolor nihil maiores quibusdam nam at? Cumque odio, saepe beatae fuga at quia. Unde, provident? Sed iure modi debitis dolor expedita veniam, sapiente nulla asperiores doloremque consequuntur inventore perspiciatis impedit laborum consequatur aspernatur, porro ex dolorum totam numquam nobis nam iste vero. Vitae, aliquid porro, vero rerum distinctio accusamus animi architecto illum consequuntur sint consectetur consequatur quae, nisi adipisci repellat voluptatum voluptas earum cumque aperiam dolore. Voluptatum repellat natus dolorem ratione, architecto soluta aperiam eaque id esse cumque odio eveniet sapiente molestias aliquam quia iusto doloribus reiciendis pariatur corporis laboriosam deleniti assumenda minus maxime. Dignissimos, pariatur! Odit aut nam facilis ex quos animi, doloribus deleniti dolorem dicta laborum velit, ut consectetur est pariatur rerum molestiae laudantium facere earum deserunt porro placeat corporis optio nisi! Eos provident quo deserunt in nam vero voluptatum eveniet, harum cum, ex repudiandae! Repellat et nesciunt magni placeat enim distinctio commodi dolorum laborum, accusantium dolores a nam blandi">
+    <link rel="icon" type="image/ico" sizes="32x32" href="icon/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="icon/favicon.ico">
+    <link rel="shortcut icon" href="icon/favicon.ico">
+
+    <meta property="og:title" content="Стилизация контейнеров для содержимого веб-страниц">
+    <meta property="og:site_name" content="Личный сайт верстальщка">
+    <meta property="og:url" content="https://site.ru">
+    <meta property="og:description" content="abore consequuntur sequi fugit odit molestias officia neque deserunt eligendi commodi dicta accusantium, dolor nihil maiores quibusdam nam at? Cumque odio, saepe beatae fuga at quia. Unde, provident? Sed iure modi debitis dolor expedita veniam, sapiente nulla asperiores doloremque consequuntur inventore perspiciatis impedit laborum consequatur aspernatur, porro ex dolorum totam numquam nobis nam iste vero. Vitae, aliquid porro, vero rerum distinctio accusamus animi architecto illum consequuntur sint consectetur consequatur quae, nisi adipisci repellat voluptat">
+    <meta property="og:image" content="https://site.ru/img/share.jpg">
+
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#4285f4" />
+
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#4285f4" />
+    
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+    
+        <!-- Яндекс.Браузер -->
+        <meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+
+    <title>Стилизация контейнеров для содержимого веб-страниц</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+
+    <main>
+        <header>
+            <div class="container">
+                <div class="header__block">
+                    <a href="/index.html" class="home__link">
+                        <img src="img/cpu.svg" alt="Логотип" class="logo">
+                    </a>
+    
+                    <nav class="nav">
+                        <ul class="header__list">
+                            <a href="/index.html#about__text" class="nav__link">
+                                <li class="link__text">
+                                    Обо мне
+                                </li>
+                            </a>
+                            <a href="/index.html#pages__text" class="nav__link">
+                                <li class="link__text">
+                                    Мои Статьи
+                                </li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <!-- nav -->
+                </div>
+                    <!-- header__block -->
+            </div>
+            <!-- container -->
+        </header>
+
+        <section class="about">
+            <div class="container">
+                 <div class="about__content">
+                     <h1 class="about__title">
+                        Личный сайт верстальщка
+                    </h1>
+                        <img src="img/zog.jpg" alt="аватар" class="avatar">
+                 </div>
+                 <!-- about__content -->
+            </div>
+            <!-- container -->
+        </section>
+        <!-- about -->
+
+        <div class="article1">
+            <div class="container">
+                <div class="article__wrapper">
+                    <div class="article__content">
+
+                        <h1 class="article__title">
+                            <u>Стилизация контейнеров для содержимого веб-страниц</u>
+                        </h1>
+
+                        <div class="time__block">
+                            <time datetime="2023-05-18T23:42" class="time">
+                                23:42 18.05.2023
+                            </time>
+                        </div>
+
+                        <div class="content__block">
+                            <h4 class="content__block__title">
+                                Содержание
+                            </h4>
+
+                            <ul class="nav__content">
+                                <ol type="1">
+                                    <li class="content__list">
+                                        <a href="#general_information2" class="nav__content__link">
+                                            Общие сведения
+                                        </a>
+
+                                        <li class="content__list">
+                                            <a href="#the_need_to_use_containers" class="nav__content__link">
+                                                О необходимости использования контейнеров для содержимого веб-страниц
+                                            </a>
+                                        </li>
+
+                                        <li class="content__list">
+                                            <a href="#configuring_the_container_element" class="nav__content__list">
+                                                Настройка элемента-контейнера средствами CSS
+                                            </a>
+
+                                            <ul>
+                                                <li class="content__list">
+                                                    <a href="#setting_the_width_of_the_container" class="nav__content__list">
+                                                        3.1 Настройка ширины контейнера
+                                                    </a>
+                                                </li>
+                                                <li class="content__list">
+                                                    <a href="#alignment_of_the_container_to_the_center_of_the_page" class="nav__content__list">
+                                                        3.2 Выравнивание контейнера по центру страницы
+                                                    </a>
+                                                </li>
+                                                <li class="content__list">
+                                                    <a href="#setting_the_left_and_right_internal_margins" class="nav__content__list">
+                                                        3.3 Настройка левого и правого внутренних отступов
+                                                    </a>
+                                                </li>
+                                                <li class="content__list">
+                                                    <a href="#using_percentage_values_when_configuring_containers" class="nav__content__list">
+                                                        3.4 Использование процентных значений при настройке контейнеров
+                                                    </a>
+                                                </li>
+                                                <li class="content__list">
+                                                    <a href="#the_display_property_of_the_container_element" class="na__content__list">
+                                                        3.5 Свойство display элемента-контейнера
+                                                    </a>
+                                                </li>
+                                                <li class="content__list">
+                                                    <a href="#separating_container_elements" class="nav__content__list">
+                                                        3.6 Настройка внешних отступов, разделяющих элементы-контейнеры
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="content__list">
+                                            <a href="#responsive_background_and_fixed_content" class="nav__content__list">
+                                                Отзывчивый фон и фиксированное содержимое
+                                            </a>
+                                        </li>
+                        </div>
+
+
+                        <div class="article__text">
+                            <p class="artcle__text">
+
+                                Содержимое веб-страниц должно быть размещено в некоем элементе, ширина которого, ограничивающая ширину содержимого, позволяет пользователям удобно работать с материалами сайта. Такие элементы называют «обёртками» (wrapper) или «контейнерами» (container). Стилизовать контейнеры средствами CSS можно по-разному. Некоторые способы работы с контейнерами ставят дизайнера перед необходимостью решать достаточно сложные задачи.
+
+                                <img src="img/pages5_img1.jpeg" class="align_centr"> <br>
+
+                                В этом материале я расскажу о контейнерах для содержимого веб-страниц: о том, как они работают, о том, как ими пользоваться, и о тех случаях, когда лучше обойтись без них. Обратите внимание на то, что я буду использовать здесь термины «обёртка» и «контейнер» как равнозначные.
+
+                                <h3 class="article__subtitle" id="general_information2">
+                                    Общие сведения
+                                </h3>
+
+                                Когда вы, при разговоре о некоем элементе веб-страницы, узнаёте о том, что речь идёт об обёртке или о контейнере, это значит, что, на самом деле, перед вами — группа элементов, которая «обёрнута» в другой элемент или «размещена» внутри этого элемента. Если, настраивая веб-страницу, не пользоваться дополнительными элементами, отведя роль контейнера элементу <code>&lt;body></code>, то стилизовать этот элемент можно так:
+                                <pre><code>
+body {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+                                </code></pre>
+
+                                Но в современных условиях использование в качестве контейнера элемента <code>&lt;body></body></code> может оказаться непрактичным. Контейнер позволяет не допустить выхода дочерних элементов за его границы.
+
+                                <img src="img/pages5_img2.png" class="align_centr"> <br>
+
+                                <span class="grey__text">Контейнер не даёт дочерним элементам выходить за его границы</span> <br> <br>
+
+                                Здесь имеется боковая и основная области страницы. Обе эти области находятся внутри элемента-контейнера. Ему назначен класс <code>.wrapper</code>. Среди прочих свойств контейнера, естественно, задана и его ширина. Структура HTML-кода такой страницы выглядит так:
+                                <pre><code>
+&lt;div class="wrapper">
+    &lt;aside>...&lt;/aside>
+    &lt;main>...&lt;/main>
+&lt;/div>
+                                </code></pre>
+                                
+                                Без использования элемента-обёртки дочерние элементы будут размещаться, ориентируясь на края экрана. Это может быть неудобным для пользователей. Особенно — для тех, которые работают на больших экранах. <br>
+
+                                <img src="img/pages5_img3.png" class="align_centr"> <br>
+
+                                <span class="grey__text">Страница без элемента-контейнера, включающего в себя её содержимое</span> <br> <br>
+
+                                Здесь показано, как элементы, растягиваясь, занимают весь экран. Происходит это в том случае, если в макете страницы нет элемента-контейнера. Полагаю, не следует предлагать пользователям работать с подобными страницами. Позвольте мне объяснить эту мысль.
+
+                                <h3 class="article__subtitle" id="the_need_to_use_containers">
+                                    О необходимости использования контейнеров для содержимого веб-страниц
+                                </h3>
+
+                                Использование контейнера для содержимого веб-страниц имеет множество сильных сторон, о которых стоит знать дизайнерам и разработчикам. Вот некоторые из этих сильных сторон:
+                                <ul>
+                                    <li>
+                                        Использование контейнера улучшает читабельность содержимого страницы. Без контейнера содержимое, вроде текста, может растягиваться на всю ширину экрана. На маленьких экранах подобное может давать вполне приемлемый результат. Но на больших экранах это выглядит очень плохо.
+                                    </li>
+                                    <li>
+                                        Группировка элементов дизайна страницы упрощает настройку расстояния между ними.
+                                    </li>
+                                    <li>
+                                        Если элементы дизайна нужно сгруппировать по столбцам, это будет сложно сделать без использования контейнера
+                                    </li>
+                                </ul>
+
+                                <h3 class="article__subtitle" id="configuring_the_container_element">
+                                    Настройка элемента-контейнера средствами CSS
+                                </h3>
+
+                                Теперь, когда мы поговорили об основах применения контейнеров, и о том, какие преимущества даёт их использование, давайте остановимся на том, как настраивать их средствами CSS.
+
+                                <h4 class="article__subsubtitle" id="setting_the_width_of_the_container">
+                                    Настройка ширины контейнера
+                                </h4>
+
+                                <img src="img/pages5_img4.png" class="align_centr"> <br>
+
+                                <span class="grey__text">
+                                    Элемент-контейнер с настроенной шириной
+                                </span> <br> <br>
+
+                                При создании контейнера первое, что нужно решить, это то, какой ширины он будет. На вопрос о желаемой ширине контейнера можно ответить, проанализировав дизайн страницы. В целом, можно сказать, что чаще всего используются контейнеры с шириной, находящейся в пределах 1000px — 1300px. Например, в популярном фреймворке Bootstrap используется ширина, равная 1170px.
+                                <pre><code>
+.wrapper {
+    width: 1170px;
+}
+                                </code></pre>
+
+                                Здесь показана установка ширины элемента с классом <code>.wrapper</code> в 1170px, но, на самом деле, свойство width для настройки ширины контейнеров использовать не рекомендуется. Дело в том, что это приводит к необходимости горизонтального скроллинга страницы в том случае, если ширина области окна браузера, доступной для вывода страницы, меньше 1170px. Решить эту проблему можно, воспользовавшись свойством <code>max-width:</code>
+                                <pre><code>
+.wrapper {
+    width: 1170px;
+    max-width: 100%;
+}
+                                </code></pre>
+
+                                Хотя это — вполне рабочий приём, можно полностью избавиться от свойства <code>width</code> и, как в следующем примере, пользоваться лишь свойством <code>max-width:</code>
+                                <pre><code>
+.wrapper {
+    max-width: 1170px;
+}
+                                </code></pre>
+
+                                Теперь, когда мы нашли подходящий механизм настройки ширины контейнера, давайте поговорим о том, как выровнять контейнер по центру страницы.
+
+                                <h4 class="article__subsubtitle" id="alignment_of_the_container_to_the_center_of_the_page">
+                                    Выравнивание контейнера по центру страницы
+                                </h4>
+
+                                <img src="img/pages5_img5.png" class="align_centr"> <br> 
+
+                                <span class="grey__text">Контейнер, выровненный по центру страницы</span> <br> <br>
+
+                                Для того чтобы выровнять контейнер по центру страницы, нужно, при настройке его внешних отступов, воспользоваться значением auto для левого и правого отступов:
+                                <pre><code>
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+                                </code></pre>
+
+                                Вот как, в соответствии со спецификацией CSS, ведут себя отступы, которым назначено значение <code>auto:</code>
+                                <span class="grey__text">
+                                    Если margin-left и margin-right установлены в значение auto, то значения, которые будут использованы для этих отступов, будут одними и теми же. Это позволяет центрировать элемент по горизонтали относительно краёв содержащего его блока.
+                                </span> <br> <br>
+
+                                Если вас интересуют подробности об использовании ключевого слова auto в CSS — взгляните на эту мою статью. <br> <br>
+
+                                Я воспользовался здесь конструкцией <code>margin: 0 auto</code>. Она сбрасывает размеры верхнего и нижнего отступов в значение 0, а левый и правый отступы настраивает в соответствии с особенностями применения ключевого слова auto. У такого шага есть некоторые последствия, о которых я расскажу ниже. А пока же хочу отметить, что рекомендуется использовать полный вариант вышеописанной сокращённой конструкции для настройки внешних отступов:
+                                <pre><code>
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+                                </code></pre>
+
+                                <h4 class="article__subsubtitle" id="setting_the_left_and_right_internal_margins">
+                                    Настройка левого и правого внутренних отступов
+                                </h4>
+
+                                <img src="img/pages5_img6.png" class="align_centr"> <br>
+
+                                <span class="grey__text">Горизонтальные (левый и правый) внутренние отступы</span> <br> <br>
+                                При проектировании контейнера важно уделить внимание настройке его левого и правого внутренних отступов. Когда размер области просмотра меньше максимальной ширины контейнера, это приведёт к тому, что края контейнера будут прижаты к границам области просмотра. Вот пример стилизации контейнера, в котором предусмотрены внутренние отступы:
+                                <pre><code>
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+                                </code></pre>
+
+                                Настроив внутренние отступы контейнера, мы можем быть уверены в том, что края контейнера, в любом случае, будут находиться как минимум в 16px от краёв области просмотра, даже в том случае, если ширина области просмотра окажется меньше максимальной ширины контейнера. Внутренние отступы — это нечто вроде защитного механизма, который не даёт границам контейнера прижиматься к границам области просмотра даже в том случае, когда область просмотра уже, чем максимальная ширина контейнера.
+
+                                <h4 class="article__subsubtitle" id="using_percentage_values_when_configuring_containers">
+                                    Использование процентных значений при настройке контейнеров
+                                </h4>
+
+                                Мне, после публикации исходного варианта этого материала, <span class="underline">написали</span> об использовании процентных значений при настройке контейнеров. В частности, речь идёт о применении CSS-свойства <code>max-width: 90%</code> вместо использования свойств <code>padding-left</code> и <code>padding-right</code>.
+
+                                <img src="img/pages6_img7.png" class="align_centr"> <br>
+
+                                <span class="grey__text">Использование процентных значений при настройке контейнеров и ситуации, когда значение max-width: 90% приводит к приемлемым и неприемлемым результатам</span> <br> <br>
+
+                                Хотя этот подход оказался вполне рабочим, выяснилось, что на больших экранах 90% ширины области просмотра — это слишком много. Но данную проблему можно решить, воспользовавшись медиа-запросом:
+                                <pre><code>
+.wrapper {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Медиа-запрос для больших экранов */
+@media (min-width: 1170px) {
+    .wrapper {
+        max-width: 1170px;
+    }
+}
+                                </code></pre>
+
+                                В результате оказывается, что, используя процентное значение, мы усложняем CSS-код. Для того чтобы избавить себя от необходимости применения медиа-запроса, мы можем использовать фиксированное значение для ширины. Ещё одно решение, предложенное в этом твите, заключается в применении комбинации свойств <code>width: 90%</code> и <code>max-width: 1170px:</code>
+                                <pre><code>
+.wrapper {
+    width: 90%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+                                </code></pre>
+
+                                Это — интересный подход, но я предпочёл бы настраивать внутренние отступы самостоятельно, не полагаясь на процентные значения.
+
+                                <h4 class="article__subsub__title" id="the_display_property_of_the_container_element">
+                                    Свойство display элемента-контейнера
+                                </h4>
+
+                                Так как для оформления контейнеров используют теги <code>&lt;div></code>, контейнеры, по умолчанию, являются блочными элементами. Что если понадобится поменять свойство контейнера <code>display</code> на <code>grid</code>, сделав это для того чтобы разместить его дочерние элементы в сетке? <br> <br>
+
+                                Я не рекомендую этого делать, так как это идёт вразрез с идеей разделения ответственностей. Элемент-контейнер, «обёртка», это сущность, предназначение которой заключается в том, чтобы «оборачивать» другие элементы. Если нужно разместить дочерние элементы контейнера в сетке, тогда стоит добавить в контейнер ещё один <code>&lt;div></code>, включающий в себя другие элементы, свойство которого <code>display</code> установлено в значение <code>grid</code>. Это будет проще и чище, чем настройка сетки средствами основного контейнера. Такой подход, кроме того, позволяет говорить о том, что в будущем проект, в котором он используется, будет легче поддерживать. <br> <br>
+
+                                Пусть имеется такой контейнер:
+                                <pre><code>
+&lt;div class="wrapper">
+    <!-- Содержимое -->
+&lt;/div>
+                                </code></pre>
+
+                                Задавать свойство <code>display: grid</code> подобного элемента не рекомендуется из-за того, что такой элемент может использоваться на разных страницах. Его особые настройки могут случайно привести к нарушению размещения элементов. Вот неудачный вариант настройки контейнера, о котором идёт речь:
+                                <pre><code>
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 16px;
+}
+                                </code></pre>
+
+                                Лучше будет использовать такой HTML-код:
+                                <pre><code>
+&lt;div class="wrapper">
+    &lt;div class="featured-news">
+        <!-- Элементы, которые нужно разместить в сетке  -->
+    &lt;/div>
+&lt;/div>
+                                </code></pre>
+
+                                Элемент с классом <code>featured-news</code> можно стилизовать так:
+                                <pre><code>
+.featured-news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 16px;
+}
+                                </code></pre>
+
+                                Обратите внимание на то, что в этом примере мы использовали отдельный элемент <code>&lt;div></code> в качестве ещё одной обёртки для содержимого страницы. На имена классов, использованных здесь, можете внимания не обращать. Для решения подобной задачи можно подобрать более удачные имена классов, которые подойдут для многократного использования на различных страницах сайта. Однако именование CSS-сущностей выходит за рамки данного материала. 
+
+                                <h4 class="article__subsubtitle" id="separating_container_elements">
+                                    Настройка внешних отступов, разделяющих элементы-контейнеры
+                                </h4>
+
+                                Помните, как выше я не рекомендовал использование сокращённого способа настройки внешних отступов для центрирования элемента-контейнера? Речь шла о такой конструкции:
+                                <pre><code>
+.wrapper { 
+    margin: 0 auto;
+}
+                                </code></pre>
+
+                                Хотя это — вполне рабочий стиль, в том случае, если на странице имеется несколько элементов-обёрток, и между ними должно быть некоторое расстояние, применение подобного стиля может привести к путанице. Если вы, по какой-то причине, решите уточнить стилизацию элемента-обёртки, применив дополнительный класс, то настройка внешних отступов с помощью этого класса не даст нужных результатов из-за особенностей расчёта значений специфичности CSS-правил. <br> <br>
+                                Я имею в виду такую схему стилизации:
+                                <pre><code>
+.wrapper-variation {
+    margin-top: 50px;
+}
+                                </code></pre>
+
+                                Свойство <code>margin</code> для элемента с классом <code>.wrapper-variation</code> не будет применено к элементу из-за того, что его переопределяет свойство <code>margin: 0 auto</code>. Краткая форма настройки свойства переопределяет его полную форму. Для того чтобы подобного избежать, рекомендуется в таких случаях использовать полную форму записи свойств. То есть, при стилизации элемента с классом <code>.wrapper</code> нужно поступить так:
+                                <pre><code>
+.wrapper { 
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+                                </code></pre>
+
+                                Теперь поговорим о настройке внешних отступов элементов. При работе над каждым своим проектом я готовлю набор вспомогательных классов для настройки внутренних и внешних отступов. Я использую их там, где они нужны. Взгляните на следующий рисунок.
+
+                                <img src="img/pages5_img8.png" class="align_centr"> <br>
+                                <span class="grey__text">
+                                    Автономный контейнер и контейнер внутри элемента &lt;section>
+                                </span> <br> <br>
+                                Вот HTML-код:
+                                <pre><code>
+&lt;div class="wrapper mb-5">&lt;/div>
+&lt;section>
+    &lt;div class="wrapper">&lt;/div>
+&lt;/section>
+&lt;div class="wrapper">&lt;/div>
+                                </code></pre>
+
+                                Вот стиль:
+                                <pre><code>
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+                                </code></pre>
+
+                                При таком подходе CSS-код для элемента-обёртки остаётся в неизменном виде, а расстояния между элементами настраиваются с использованием вспомогательных CSS-классов. Тут у вас может появиться вопрос о том, зачем мне понадобилось использовать на странице несколько контейнеров, когда можно обойтись одним. Обратите внимание на то, что в вышеприведённом HTML-коде имеется элемент <code>&lt;section></code>, расположенный между двух элементов-обёрток. <br> <br>
+                                Здесь хорошо показывает себя использование модификатора <code>!important</code>. Дело в том, что смысл использования вспомогательных классов заключается в том, чтобы принудительно менять значения свойств. Обеспечить такое поведение можно с помощью <code>!important</code>.
+
+                                <h3 class="article__subtitle" id="responsive_background_and_fixed_content">
+                                    Отзывчивый фон и фиксированное содержимое
+                                </h3>
+
+                                В книге CSS Secrets представлена интересная техника, которая может быть использована для стилизации разделов, имеющих отзывчивый фон (фон, способный занимать всю доступную ширину области просмотра) и элемент-контейнер для содержимого. Рассмотрим обычный способ создания макетов подобных разделов. <br> <br>
+                                Вот HTML-разметка:
+                                <pre><code>
+&lt;section>
+    &lt;div class="wrapper">&lt;/div>
+&lt;/section>
+                                </code></pre>
+
+                                Вот стили:
+                                <pre><code>
+section {
+    background-color: #ccc;
+}
+<br> <br>
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+                                </code></pre>
+
+                                Здесь значения свойств <code>margin-left: auto</code> и <code>margin-right: auto</code> вычисляются путём взятия половины ширины области просмотра и вычитания из неё ширины содержимого. Того же самого можно добиться с использованием внутренних отступов.
+
+                                <img src="img/pages5_img9.png" class="align_centr"> <br>
+
+                                <span class="grey__text">Внутренние отступы</span> <br> <br>
+
+                                <pre><code>
+section {
+    padding: 1rem calc(50% - 585px);
+}
+                                </code></pre>
+
+                                Но дело пока ещё не сделано. На мобильных устройствах содержимое будет прижато к краям области просмотра. Решить эту проблему можно, например, так:
+                                <pre><code>
+section {
+    padding: 1rem;
+  }
+  
+  @media (min-width: 1170px) {
+      section {
+        padding: 1rem calc(50% - 585px);
+      }
+  }
+                                </code></pre>
+
+                                В качестве альтернативного решения можно предложить применение новой CSS-функции <code>max()</code>. Используя её, мы задаём минимальный размер внутреннего отступа, равный <code>1rem</code>, а в качестве второго значения, передаваемого ей, указываем выражение <code>50% — 585px</code>.
+                                <pre><code>
+section {
+    padding: 1rem max(1rem, (50% - 585px));
+  }
+                                </code></pre> 
+
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__content">
+                        <p class="footer__text">
+                            Вы таже можете найти меня <span class="underline"><a href="https://vk.com/dedushka_54" target="_blank" class="footer__link">здесь.</a></span>
+                        </p>
+                        <p class="footer__copy">
+                            &copy; Мусин Артём
+                        </p>
+                    </div>
+                    <div class="footer__block">
+                        <a href="https://vk.com" class="footer__logo__link" target="_blank">
+                            <img src="img/vk.svg" alt="логотип ВК" class="footer__logo">
+                        </a>
+                        <a href="https://www.facebook.com" class="footer__logo__link" target="_blank">
+                            <img src="img/facebook.svg" alt="логотип фейсбука" class="footer__logo">
+                        </a>
+                        <a href="https://instagram.com" class="footer__logo__link" target="_blank">
+                            <img src="img/instagram.svg" alt="логотип инстаграма" class="footer__logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </main>
+    
+</body>
+</html>

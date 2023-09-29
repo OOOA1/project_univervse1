@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ситлизация, CSS, HTML">
+    <meta name="description" content="hic ex fugit tempora error repellat, cupiditate praesentium natus tempore deserunt, eos voluptatibus ad assumenda. Illum saepe velit exercitationem sed, unde a pariatur tenetur blanditiis sint ut assumenda deleniti facere? Doloremque libero amet atque praesentium magni nesciunt! Quas aperiam exercitationem, aspernatur, labore consequuntur sequi fugit odit molestias officia neque deserunt eligendi commodi dicta accusantium, dolor nihil maiores quibusdam nam at? Cumque odio, saepe beatae fuga at quia. Unde, provident? Sed iure modi debitis dolor expedita veniam, sapiente nulla asperiores doloremque consequuntur inventore perspiciatis impedit laborum consequatur aspernatur, porro ex dolorum totam numquam nobis nam iste vero. Vitae, aliquid porro, vero rerum distinctio accusamus animi architecto illum consequuntur sint consectetur consequatur quae, nisi adipisci repellat voluptatum voluptas earum cumque aperiam dolore. Voluptatum repellat natus dolorem ratione, architecto soluta aperiam eaque id esse cumque odio eveniet sapiente molestias aliquam quia iusto doloribus reiciendis pariatur corporis laboriosam deleniti assumenda minus maxime. Dignissimos, pariatur! Odit aut nam facilis ex quos animi, doloribus deleniti dolorem dicta laborum velit, ut consectetur est pariatur rerum molestiae laudantium facere earum deserunt porro placeat corporis optio nisi! Eos provident quo deserunt in nam vero voluptatum eveniet, harum cum, ex repudiandae! Repellat et nesciunt magni placeat enim distinctio commodi dolorum laborum, accusantium dolores a nam blandi">
+    <link rel="icon" type="image/ico" sizes="32x32" href="icon/favicon.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="icon/favicon.ico">
+    <link rel="shortcut icon" href="icon/favicon.ico">
+
+    <meta property="og:title" content="Как настроить высоту строки в CSS">
+    <meta property="og:site_name" content="Личный сайт верстальщка">
+    <meta property="og:url" content="https://site.ru">
+    <meta property="og:description" content="abore consequuntur sequi fugit odit molestias officia neque deserunt eligendi commodi dicta accusantium, dolor nihil maiores quibusdam nam at? Cumque odio, saepe beatae fuga at quia. Unde, provident? Sed iure modi debitis dolor expedita veniam, sapiente nulla asperiores doloremque consequuntur inventore perspiciatis impedit laborum consequatur aspernatur, porro ex dolorum totam numquam nobis nam iste vero. Vitae, aliquid porro, vero rerum distinctio accusamus animi architecto illum consequuntur sint consectetur consequatur quae, nisi adipisci repellat voluptat">
+    <meta property="og:image" content="https://site.ru/img/share.jpg">
+
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#4285f4" />
+
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#4285f4" />
+    
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+    
+        <!-- Яндекс.Браузер -->
+        <meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+    <title>Как настроить высоту строки в CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header__block">
+                <a href="/index.html" class="home__link">
+                    <img src="img/cpu.svg" alt="Логотип" class="logo">
+                </a>
+
+                <nav class="nav">
+                    <ul class="header__list">
+                        <a href="/index.html#about__text" class="nav__link">
+                            <li class="link__text">
+                                Обо мне
+                            </li>
+                        </a>
+                        <a href="/index.html#pages__text" class="nav__link">
+                            <li class="link__text">
+                                Мои Статьи
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+                <!-- nav -->
+            </div>
+                <!-- header__block -->
+        </div>
+        <!-- container -->
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                 <div class="about__content">
+                     <h1 class="about__title">
+                        Личный сайт верстальщка
+                    </h1>
+                        <img src="img/zog.jpg" alt="аватар" class="avatar">
+                 </div>
+                 <!-- about__content -->
+            </div>
+            <!-- container -->
+        </section>
+        <!-- about -->
+
+        <section class="article1">
+            <div class="container">
+                <div class="article__wrapper">
+                    <div class="article__content">
+                        <h1 class="article__title">
+                            <u>Как настроить высоту строки в CSS</u>
+                        </h1>
+
+                        <div class="time__block">
+                            <time datetime="2023-05-15T21:55" class="time">
+                                21:55 15.05.2023
+                            </time>
+                        </div>
+
+                        <h3 class="article__subtitle">
+                            Обзор типографских терминов
+                        </h3>
+
+                        <p class="article__text">
+                            В традиционном западном дизайне строка текста состоит из нескольких частей:
+
+                            <ul>
+                                <li>
+                                    Базовая линия: это воображаемая линия, на которой находится текст. Когда вы пишете в блокноте с разметкой, базовая линия — это строка, на которой вы пишете.
+                                </li>
+
+                                <li>
+                                    Нижняя линия: эта линия находится чуть ниже базовой линии. Это линия, которой касаются некоторые символы — такие как прописные g, j, q, y и p.
+                                </li>
+
+                                <li>
+                                    Высота X: это (очевидно) высота обычной строчной буквы x в строке текста. Как правило, это высота других строчных букв, хотя некоторые из них могут иметь части символов, которые будут превышать x-высоту. Для всех намерений и целей, это считается воспринимаемой высотой строчных букв.
+                                </li>
+
+                                <li>
+                                    Высота заглавных букв: это высота большинства заглавных букв в данной строке текста.
+                                </li>
+
+                                <li>
+                                    Верхняя линия: линия, которая часто отображается чуть выше высоты заглавных букв, когда некоторые символы похожие на строчные буквы h или b могут превышать нормальную высоту заглавных букв.
+                                </li>
+                            </ul>
+                        </p>
+
+                        <img src="img/the_quick_fox.png" alt="" class="the_quick_fox">
+
+                        <p class="article__text">
+                            Каждая из частей текста, описанных выше, является неотъемлемой частью самого шрифта. Шрифт разработан с учетом каждой из этих частей; тем не менее, есть некоторые части типографики, которые оставлены на усмотрение разработчика (как вы и я!), а не дизайнера. <br> <br>Одной из них является направляющие. 
+                        </p>
+
+                        <img src="img/broy_jumped.png" alt="" class="broy_jumped">
+
+                        <p class="article__text">
+                            Разработчик CSS может подумать: «Хорошо, направляющая — это высота строки, давайте двигаться дальше». Хотя эти два понятия взаимосвязаны, они также отличаются в некоторых очень важных аспектах. Давайте возьмем пустой документ и добавим к нему классический «сброс CSS»: <pre><code>
+* {
+    margin: 0;
+    padding: 0;
+}
+                            </code></pre>
+                            Это удаляет поля и отступы для каждого элемента. Мы также будем использовать Lato от Google Fonts в качестве font-family. Нам понадобится некоторый контент, поэтому давайте создадим тег h1 с некоторым текстом и установим для его line-height что-то ужасно огромное, например 300px. В результате получается одна строка текста с удивительным количеством места над и под строкой. <
+                            
+                        </p>
+                        <p class="article__text">
+                            Когда браузер обнаруживает это свойство line-height, он на самом деле берет строку текста и помещает ее в середину «строки», высота которой соответствует высоте строки элемента. Вместо того, чтобы устанавливать начальную строку для шрифта, мы получаем что-то похожее на заполнение одной из сторон строки.
+                        </p>
+                        <img src="img/jumped_over.png" alt="" class="jumped_over">
+
+                        <p class="article__text">
+                            Как показано выше, строковое поле оборачивается вокруг строки текста, где направляющие создаются с использованием интервала ниже одной строки текста и выше следующей. Это означает, что для каждого текстового элемента на странице в конкретном текстовом блоке будет половина первой строки над первой строкой текста и половина первой строки после последней строки текста.
+                        </p>
+                        <p class="article__text">
+                            Что еще более удивительно, так это то, что при явной установке элемента line-height и font-size для одного и того же значения будет оставлено дополнительное пространство над и под текстом. 
+                        </p>
+                        <p class="article__text">
+                            Это связано с тем, что даже если для параметра font-size установлено значение 32px, фактический размер текста является чем-то меньшим, чем это значение из-за созданного поля.
+                        </p>
+
+                        <div class="article__text">
+                            <h3 class="article__subtitle">
+                                Научить CSS рассматривать высоту строки как направляющие
+                            </h3>
+
+                            
+                            <p class="article__text">
+                                Направляющие можно задать в CSS довольно просто. Майкл Таранто выпустил инструмент под названием Basekick, который решает эту проблему. Это достигается путем применения отрицательного верхнего поля к псевдо-элементу ::before и translateY к самому элементу. Конечным результатом является строка текста без лишних пробелов вокруг нее. 
+                            </p>
+                            <p class="article__text">
+                                Самую актуальную версию формулы можно найти в исходном коде для Системы проектирования Braid от SEEK. В приведенном ниже примере мы пишем миксин Sass, чтобы он выполнял вычисления, но ту же формулу можно использовать с миксинами JavaScript, Less, PostCSS или чем-то еще, что предоставляет такие математические функции.
+                                <pre><code>
+@function calculateTypeOffset($lh, $fontSize, $descenderHeightScale) {
+  $lineHeightScale: $lh / $fontSize;
+  @return ($lineHeightScale - 1) / 2 + $descenderHeightScale;
+}
+
+@mixin basekick($typeSizeModifier, $baseFontSize, $descenderHeightScale, $typeRowSpan, $gridRowHeight, $capHeight) {
+  $fontSize: $typeSizeModifier * $baseFontSize;
+  $lineHeight: $typeRowSpan * $gridRowHeight;
+  $typeOffset: calculateTypeOffset($lineHeight, $fontSize, $descenderHeightScale);
+  $topSpace: $lineHeight - $capHeight * $fontSize;
+  $heightCorrection: 0;
+  
+  @if $topSpace > $gridRowHeight {
+    $heightCorrection: $topSpace - ($topSpace % $gridRowHeight);
+  }
+  
+  $preventCollapse: 1;
+  
+  font-size: #{$fontSize}px;
+  line-height: #{$lineHeight}px;
+  transform: translateY(#{$typeOffset}em);
+  padding-top: $preventCollapse;
+
+  &::before {
+    content: "";
+    margin-top: #{-($heightCorrection + $preventCollapse)}px;
+    display: block;
+    height: 0;
+  }
+}
+                                </code></pre>
+                            </p>
+                            <p class="article__text">
+                                На первый взгляд, этот код определенно выглядит как множество магических чисел. Но это может быть разделено на части, если подумать об этом в контексте конкретной системы. Давайте рассмотрим это подробнее: 
+                            </p>
+
+                            <div class="article__text">
+                                <h3 class="article__subtitle">
+                                    Уточнение кода
+                                </h3>
+
+                                <p class="article__text">
+                                    Вместо того, чтобы выгружать весь код в один миксин SCSS, давайте организуем его немного лучше. С точки зрения систем, заметим, что есть три типа переменных, с которыми мы работаем:
+                                </p>
+
+                                <img src="img/tablica.png" alt="" class="tablica">
+
+                                <p class="article__text">
+                                    Оперируя этими терминами, мы можем значительно расширить систему. Давайте рассмотрим каждую группу по очереди. Во-первых, переменные системного уровня могут быть установлены глобально, поскольку они вряд ли изменятся в ходе разработки проекта. Это уменьшает количество переменных в основном миксине до четырех:
+                                    <pre><code>
+$baseFontSize: 16;
+$gridRowHeight: 4;
+ 
+@mixin basekick($typeSizeModifier, $typeRowSpan, $descenderHeightScale, $capHeight) {
+  /* Same as above */
+}
+                                    </code></pre>
+                                    Мы также знаем, что переменные уровня шрифта специфичны для данного семейства шрифтов. Это означает, что было бы достаточно легко создать миксин более высокого порядка, который устанавливает их как константы:
+                                    <pre><code>
+@mixin Lato($typeSizeModifier, $typeRowSpan) {
+  $latoDescenderHeightScale: 0.11;
+  $latoCapHeight: 0.75;
+  
+  @include basekick($typeSizeModifier, $typeRowSpan, $latoDescenderHeightScale, $latoCapHeight);
+  font-family: Lato;
+}
+                                    </code></pre>
+                                    
+                                    Теперь, переменные на основе правил, мы можем вызывать миксин Lato без особых проблем:
+                                    
+                                    <pre><code>
+                                        CSS
+.heading--medium {
+  @include Lato(2, 10);
+}
+.heading--medium {
+  @include Lato(2, 10);
+}
+                                    </code></pre>
+                                    Этот вывод дает нам правило, которое использует шрифт Lato с font-size 32px и line-height 40px со всеми соответствующими переводами и полями. Это позволяет нам писать простые правила стилей и использовать согласованность сетки, к которой привыкли дизайнеры при применении таких инструментов, как Sketch и Figma. <br> <br>
+                                    В результате мы можем без особых усилий создавать идеальные до пикселям дизайны. <br> <br> 
+                                    Это дает нам уникальную сверхспособность при создании макетов на веб-сайтах: впервые в истории мы можем реально создавать страницы с точностью до пикселя. Соедините эту технику с некоторыми основными компонентами макета, и мы можем начать создавать страницы так же, как в инструменте дизайна
+                                </p>
+                                <p class="article__text">
+                                    Если мы хотим, чтобы CSS использовал более традиционный стиль установки шрифта вместо линейного блока, мы хотим, чтобы в одной строке текста не было места ни над, ни под ним, но чтобы многострочные элементы сохраняли свое полное значение line-height. 
+    
+                                    
+                                    <ul>
+                                        <li>
+                                            $baseFontSize: Это нормальный font-size для нашей системы, на основе которого все остальное будет управляться. Мы будем использовать 16px в качестве значения по умолчанию. 
+                                        </li>
+    
+                                        <li>
+                                            $typeSizeModifier: Это множитель, который используется вместе с базовым размером шрифта для определения правила font-size. Например, значение 2 в сочетании с базовым размером шрифта 16 пикселей даст нам font-size: 32px. 
+                                        </li>
+                                        <li>
+                                            $descenderHeightScale: Это высота нижней линии шрифта, выраженная в виде отношения. Для Lato это примерно 0,11. 
+                                        </li>
+                                        <li>
+                                            $capHeight: Это конкретная высота шрифта, выраженная в виде отношения. Для Lato это около 0,75. 
+                                        </li>
+                                        <li>
+                                            $gridRowHeight: В макетах по умолчанию обычно используется вертикальный ритм, что обеспечивает комфортное чтение. Например, все элементы на странице могут быть разнесены на четыре или пять пикселей. Мы будем использовать 4 в качестве значения, потому что оно легко делится на нашу $baseFontSize 16px. 
+                                        </li>
+                                        <li>
+                                            $typeRowSpan: Как и $typeSizeModifier, эта переменная служит множителем, который будет использоваться с высотой строки сетки для определения значения правила line-height. Если наша высота строки сетки по умолчанию равна 4, а диапазон строк текста равен 8, это дает нам значение line-height: 32px. 
+                                        </li>
+                                    </ul>
+                                    Для любого набора элементов текстового блока без полей эти два элемента должны соприкасаться друг с другом. Таким образом, любые поля, установленные между двумя элементами, будут точно соответствовать в пикселях, потому что у нас не будет отображаться интервал блока строки.
+                                </p>
+                            </div>
+
+                            <div class="aricle__text">
+                                <h3 class="article__subtitle">
+                                    Двигаясь к стандарту
+                                </h3>
+
+                                <p class="article__text">
+                                    Хотя, чтобы научить CSS вести себя, как инструменты дизайна, потребует немного усилий, свет в конце туннеля уже виден. Также предложено дополнение к спецификации CSS для естественного переключения этого поведения. Предложение в его нынешнем виде добавит дополнительное свойство к текстовым элементам, похожим на line-height-trim или leading-trim.
+                                </p>
+                            </div>
+
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__content">
+                        <p class="footer__text">
+                            Вы таже можете найти меня <span class="underline"><a href="https://vk.com/dedushka_54" target="_blank" class="footer__link">здесь.</a></span>
+                        </p>
+                        <p class="footer__copy">
+                            &copy; Мусин Артём
+                        </p>
+                    </div>
+                    <div class="footer__block">
+                        <a href="https://vk.com" class="footer__logo__link" target="_blank">
+                            <img src="img/vk.svg" alt="логотип ВК" class="footer__logo">
+                        </a>
+                        <a href="https://www.facebook.com" class="footer__logo__link" target="_blank">
+                            <img src="img/facebook.svg" alt="логотип фейсбука" class="footer__logo">
+                        </a>
+                        <a href="https://instagram.com" class="footer__logo__link" target="_blank">
+                            <img src="img/instagram.svg" alt="логотип инстаграма" class="footer__logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
